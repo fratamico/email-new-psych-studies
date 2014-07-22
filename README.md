@@ -5,7 +5,6 @@ launchd is used to run the script every 30 minutes when the computer is on.
 
 
 To install the launch daemon:
-
 sudo cp com.lauren.psych.launchDaemon.plist /Library/LaunchDaemons
 launchctl load -w /Library/LaunchDaemons/com.lauren.psych.launchDaemon.plist
 
