@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.lauren.psych.launchDaemon</string>
+	<key>WorkingDirectory</key>
+	<string>/Users/Lauren/Documents/projects/psychStudyEmailer/</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>python</string>
+		<string>/Users/Lauren/Documents/projects/psychStudyEmailer/psychStudies.py</string>
+	</array>
+	<key>StartInterval</key>
+	<integer>1800</integer>
+	<key>StandardOutPath</key>
+	<string>/tmp/psych.out</string>
+	<key>StandardErrorPath</key>
+	<string>/tmp/psych.err</string>
+	<key>EnvironmentVariables</key>
+    <dict>
+    	<key>PYTHONPATH</key>
+    	<string>/Users/Lauren/anaconda/pkgs/beautiful-soup-4.3.1-py27_0/lib/python2.7/site-packages/</string>
+    </dict>
+</dict>
+</plist>
